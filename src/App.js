@@ -16,8 +16,9 @@ class App extends Component {
             </header>
             <div>
               <Switch>
-                <Route exact path="/:id" component={Tree} />
                 <Route exact path="/new" component={Tree} />
+                <Route exact path="/:id" component={Tree} />} />
+                <Route exact path="/:id/edit" component={Tree} />} />
               </Switch>
             </div>
           </div>
