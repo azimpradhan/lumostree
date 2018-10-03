@@ -9,6 +9,9 @@
 # production
 /build
 
+.idea
+.firebaserc
+.firebase/
 # misc
 .DS_Store
 .env.local
